@@ -1,15 +1,22 @@
+<!-- ABOUT PAGE (views/AboutView.vue) -->
+<script setup>
+import AboutHero from '@/components/AboutHero.vue'
+import OurStory from '@/components/OurStory.vue'
+import OurValues from '@/components/OurValues.vue'
+import LocationSection from '@/components/LocationSection.vue'
+</script>
+
 <template>
-  <div class="about">
-    <h1>This is an about page</h1>
+  <div class="about-page">
+    <AboutHero />
+    <OurStory />
+    <OurValues />
+    <LocationSection />
   </div>
 </template>
 
-<style>
-@media (min-width: 1024px) {
-  .about {
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-  }
+<style scoped>
+.about-page {
+  width: 100%;
 }
 </style>
