@@ -1,50 +1,56 @@
 # CoolVue
 
-This template should help get you started developing with Vue 3 in Vite.
+CoolVue is a single-page application (SPA) for an ice cream business, built with Vue 3. It includes Home, Menu, and About pages, and uses Vue Router for smooth navigation.
 
-## Recommended IDE Setup
+## Features
 
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+- Responsive layout for desktop and mobile
+- Built with reusable Vue components
+- Powered by Vite for fast development
+- Client side routing with Vue Router
 
-## Recommended Browser Setup
+## Tech Stack
 
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd) 
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
+- Frontend: Vue 3 + Vite
+- Routing: Vue Router
 
-## Customize configuration
+## Installation
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+1. Clone the repository:
 
-## Project Setup
+```bash
+https://github.com/hquezada24/CoolVue.git
+cd CoolVue
+```
 
-```sh
+1. Install dependencies:
+
+```bash
 npm install
 ```
 
-### Compile and Hot-Reload for Development
+1. Start the development server:
 
-```sh
-npm run dev
+```bash
+npm run start
 ```
 
-### Compile and Minify for Production
+1. Open in your browser: [http://localhost:5473](http://localhost:5473)
 
-```sh
-npm run build
-```
+## Screenshots
 
-### Run Unit Tests with [Vitest](https://vitest.dev/)
+### Home
 
-```sh
-npm run test:unit
-```
+![Home](./public/Home.png)
 
-### Lint with [ESLint](https://eslint.org/)
+### Menu
 
-```sh
-npm run lint
-```
+![Menu](./public/Menu.png)
+
+### About
+
+![About](./public/About.png)
+
+## Contact
+
+Created by [Hugo Quezada](https://github.com/hquezada24)
